@@ -16,7 +16,17 @@
 
 @media (max-width: 768px) {
   .landing-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .character {
+    max-width: 250px;
+  }
+
+  .speech-bubble {
+    padding: 1.5rem 2rem;
   }
 }
 
